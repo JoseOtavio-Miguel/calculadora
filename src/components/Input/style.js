@@ -9,13 +9,14 @@ export const InputContainer = styled.div`
     align-items: center;
     justify-content: flex-end;
 
-    font-size: 24px;
-    font-family: 'Roboto';
 
     input {
+        font-size: 40px;
+        font-family: 'Roboto';
+        
         width: 100%;
         height: 75px;
-        background-color: #AAFFAA;
-        border: 0;
+        background-color: rgba(127, 250, 127, 1);
+        border: 2px solid;
     }
 `
